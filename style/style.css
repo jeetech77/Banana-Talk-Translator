@@ -26,14 +26,14 @@ body {
     text-align: center;
 }
 
-.text_value {
+.text-value {
     margin: 1.5rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.text_value textarea {
+.text-value textarea {
     width: 60vw;
     border: 3px solid var(--yellow-color);
     padding: .5rem;
@@ -53,10 +53,11 @@ body {
     border: 2px solid var(--yellow-color);
 
 }
-.output_area {
+.output-area {
     height: 15vh;
     width: 60vw;
     padding: .5rem;
+    overflow: auto;
     border: 3px solid var(--yellow-color);
 }
 
