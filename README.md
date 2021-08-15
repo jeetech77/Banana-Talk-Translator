@@ -1,5 +1,6 @@
 # Banana-Talk-Translator
-This is a translator website that translates English into Minions language.
+This is a translator website build using [Fun Translation](https://funtranslations.com/api/minion) API, that translates English into Minions language.
+
 
 [Check here live ](https://banana-talk-trans.netlify.app/)
 
