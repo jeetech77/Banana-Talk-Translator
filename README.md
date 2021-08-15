@@ -4,6 +4,8 @@ This is a translator website build using [Fun Translation](https://funtranslatio
 
 [Check here live ](https://banana-talk-trans.netlify.app/)
 
+## How To Use ?
+
 - Enter your english text first that you want to convert in Minion language.
 - Click on the Translate button.
 - The translated text will show up below.
