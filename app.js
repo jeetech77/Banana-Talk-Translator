@@ -1,7 +1,7 @@
 const rawInput = document.querySelector("#raw-text");
 const translateButton = document.querySelector(".trans-button")
 const txtOutput = document.querySelector(".output-area")
-const url = "	https://api.funtranslations.com/translate/minion.json";
+const url = "https://api.funtranslations.com/translate/minion.json";
 function constructUrl(text) {
     return (url + "?text=" + text)
 };
@@ -10,7 +10,7 @@ translateButton.addEventListener('click', () => {
     fetch(constructUrl(txtInput))
     .then(Response => Response.json())
     .then(json => {
-        var translatedText = json.contents.translated;
+        let translatedText = json.contents.translated;
         txtOutput.innerHTML = translatedText;
     }
     )
